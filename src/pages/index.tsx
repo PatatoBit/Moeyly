@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/images/moey.png" />
       </Head>
 
-      <Parallax pages={4}>
+      <Parallax pages={1}>
 
         <ParallaxLayer speed={.8}><Title /></ParallaxLayer>
 
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           factor={1.2}
           style={{
             zIndex: -2,
-            backgroundImage: `url(/images/backbeach.png)`,
+            backgroundImage: `url(/images/newbg.png)`,
             backgroundSize: 'cover',
           }}
         />
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           factor={1.2}
           style={{
             zIndex: -2,
-            backgroundImage: `url(/images/frontlayer.png)`,
+            backgroundImage: `url(/images/newfg.png)`,
             backgroundSize: 'cover',
           }}
         />
